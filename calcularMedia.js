@@ -7,6 +7,8 @@ function CalcularMedia() {
 
   if (media >= 7)
     document.getElementById('resultado').innerHTML = 'Aprovado! Média ' + media
+  elif (media >= 4 < 7)
+    document.getElementById('resultado').innerHTML = 'Prova Final! Média ' + media
   else
     document.getElementById('resultado').innerHTML = 'Reprovado! Média ' + media
 }
