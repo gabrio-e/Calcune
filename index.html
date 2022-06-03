@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <title>CALCUNERÁRIA</title>
     <script src="calcularMedia.js"></script>
+    <script src="remover.js"></script>
+    <script src="adicionar.js"></script>
+
     <link
       rel="icon"
       type="image/x-icon"
@@ -35,7 +38,7 @@
           placeholder="Digite o nome do aluno"
           class="input-medio"
         />
-        <table>
+        <table id="table">
           <thead>
             <tr>
               <th>Nome</th>
@@ -87,50 +90,53 @@
         </table>
       </section>
       <section class="box">
-        <h2 class="titulos">Adicionar Aluno</h2>
-        <ul id="mensagens-erro"></ul>
-        <div class="">
-          <label for="nome">Nome:</label>
-          <input
-            id="nome"
-            name="nome"
-            type="text"
-            placeholder="Nome do aluno"
-            class="input-padrao"
-          />
-        </div>
-        <div class="notas">
-          Nota 1:
-          <input
-            id="nota1"
-            name="nota1"
-            type="number"
-            placeholder="Primeira nota do aluno"
-            class="input-medio"
-          />
-        </div>
-        <div class="notas">
-          Nota 2:
-          <input
-            id="nota2"
-            name="nota2"
-            type="number"
-            placeholder="Segunda nota do aluno"
-            class="input-medio"
-          />
-        </div>
-        <div class="notas">
-          Nota 3:
-          <input
-            id="nota3"
-            name="nota3"
-            type="number"
-            placeholder="Terceira nota do aluno"
-            class="input-medio"
-          />
-        </div>
+        <form id="form">
+          <h2 class="titulos">Adicionar Aluno</h2>
+          <ul id="mensagens-erro"></ul>
+          <div class="">
+            <label for="nome">Nome:</label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              placeholder="Nome do aluno"
+              class="input-padrao"
+            />
+          </div>
+          <div class="notas">
+            Nota 1:
+            <input
+              id="nota1"
+              name="nota1"
+              type="number"
+              placeholder="Primeira nota do aluno"
+              class="input-medio"
+            />
+          </div>
+          <div class="notas">
+            Nota 2:
+            <input
+              id="nota2"
+              name="nota2"
+              type="number"
+              placeholder="Segunda nota do aluno"
+              class="input-medio"
+            />
+          </div>
+          <div class="notas">
+            Nota 3:
+            <input
+              id="nota3"
+              name="nota3"
+              type="number"
+              placeholder="Terceira nota do aluno"
+              class="input-medio"
+            />
+          </div>
+        </form>
         <div id="resultado"></div>
         <button onclick="CalcularMedia()">Resultado</button>
+        <button id="adicionar">Adicionar</button>
       </section>
     </main>
     <footer>
