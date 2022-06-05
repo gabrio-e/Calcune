@@ -64,15 +64,15 @@ margin-top: 1em;
 }
 
 label {
-	display: block;
-	margin: 0 0 10px;
-	font-size: 20px;
+  display: block;
+  margin: 0 0 10px;
+  font-size: 20px;
 }
 
 table {
-	width: 400px;
-	margin: 30px auto;
-	border-collapse: collapse;
+  width: 400px;
+  margin: 30px auto;
+  border-collapse: collapse;
 }
 
 td, th {
@@ -116,7 +116,7 @@ td, th {
 	margin-left: 0em;
 }
 #mensagens-erro {
-	color: red;
+  color: red;
 }
 
 footer {
