@@ -1,40 +1,58 @@
-*{
-	padding: 0;
-	margin: 0;
-}
-
 body {
-	font-family: "Poppins", sans-serif;
-	
+	background-color: #f0edee;
 }
 
-header {
-	padding: 5px 0;
-	background: #ffcbdb;
+
+/* Configuração de cada elemento textual */
+.texto {
+	text-align: center;
+	color: #05386b;
+	font-family: "Raleway", sans-serif;
 }
 
-.box {
+.texto .filtrar{
+	text-align: left;
+	margin-left: 22.5em;
+}
+
+.texto .alunos{
+	margin: 1em;
+}
+
+.texto .titulo{
+font-size: 30px;
+font-weight: 800;
+}
+
+.texto .textosec{
+	font-size: 15px;
+	padding: 0;
+	font-weight: 600;
+}
+/* Término da configuração de texto */
+
+.tabela {
+	position: relative;
+	width: 470px;
+	margin: 0 auto;
+}
+
+.form{
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+
 }
+
 
 .titulos {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	color: #05386b;
+	font-family: "Raleway", sans-serif;
 }
 
-form {
-	width: 100%;
-	margin: 30px auto;
-}
-
-form h2 {
-	text-align: center;
-	font-size: 1.8em;
-	color: #ff8a9d;
-}
 
 .grupo {
 	display: inline-block;
@@ -52,10 +70,7 @@ table {
 	border-collapse: collapse;
 }
 
-thead {
-	background:  #ff8a9d;
-	color: white;
-}
+
 
 td, th {
 	border: 1px solid black;
@@ -64,26 +79,17 @@ td, th {
 }
 
 .input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 100%;
-	border-color: #ff8a9d;
-	box-sizing: border-box;
-}
-
-.input-medio {
 	display: inline-block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 100%;
-	border-color: #ff8a9d;
+	border: none;
+	border-radius: 7.5px;
 	box-sizing: border-box;
-}
-
-.grupo{
-	width: 32.8%;
-	display: inline-block;
+	box-shadow:
+  	6.7px 6.7px 5.3px rgba(0, 0, 0, 0.036),
+  	22.3px 22.3px 17.9px rgba(0, 0, 0, 0.054),
+  	100px 100px 80px rgba(0, 0, 0, 0.09);
 }
 
 .botao {
@@ -94,6 +100,8 @@ td, th {
 	border: none;
 	border-radius: 5px;
 	padding: 10px 25px;
+	
+
 }
 
 .botao:hover {
@@ -111,18 +119,10 @@ td, th {
 	transition: 1s;
 }
 
-.invisivel {
-	display: none;
-}
 
-footer img {
-	width: 10%;
-	padding-top: 20px;
-}
 
 footer {
 	text-align: center;
-	background: #ffcbdb;
 	width: 100%;
 	position: absolute;
 	margin-top: auto;
@@ -130,7 +130,8 @@ footer {
 
 footer p {
 	font-weight: bold;
-	font-size: 20px;
-	color: white;
+	font-size: 12px;
+	color: #05386b;
 	padding: 20px;
+	font-family: "Raleway", sans-serif;
 }
