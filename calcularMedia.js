@@ -8,7 +8,7 @@ function CalcularMedia() {
 
   if (media < 0 || media > 10)
     document.getElementById('resultado').innerHTML = 'Média não é válida'
-  if (media >= 7)
+  else if (media >= 7)
     document.getElementById('resultado').innerHTML = 'Aprovado! Média ' + media
   else if (media >= 4 < 7)
     document.getElementById('resultado').innerHTML =
